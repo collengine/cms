@@ -1,6 +1,6 @@
 <?php include "header.php" ?>
  
-      <h1>Article Archive</h1>
+      <h1>Books Archive</h1>
  
       <ul id="headlines" class="archive">
  
