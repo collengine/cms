@@ -1,7 +1,7 @@
 <?php
 ini_set( "display_errors", true );
 date_default_timezone_set( "Australia/Sydney" );  // http://www.php.net/manual/en/timezones.phplocalhost
-define( "DB_DSN", "mysql:host=bookfair-mysqldbserver.mysql.database.azure.com; dbname=cms" );
+define( "DB_DSN", "mysql:host=bookfair-mysqldbserver.mysql.database.azure.com; dbname=mysqldatabase40682" );
 define( "DB_USERNAME", "peterkoech@bookfair-mysqldbserver" );// "mysql:host=localhost;dbname=cms" 
 define( "DB_PASSWORD", "#Robert15" );
 define( "CLASS_PATH", "classes" );
