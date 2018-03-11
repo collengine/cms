@@ -1,9 +1,9 @@
 <?php
 ini_set( "display_errors", true );
 date_default_timezone_set( "Australia/Sydney" );  // http://www.php.net/manual/en/timezones.phplocalhost
-define( "DB_DSN", "mysql:host=localhost;dbname=cms" );
-define( "DB_USERNAME", "peter" );
-define( "DB_PASSWORD", "passwd" );
+define( "DB_DSN", "sqlsrv:server = tcp:cmsbooksonline.database.windows.net,1433; Database = cms" );
+define( "DB_USERNAME", "onekoetch" );
+define( "DB_PASSWORD", "#Robert15" );
 define( "CLASS_PATH", "classes" );
 define( "TEMPLATE_PATH", "templates" );
 define( "HOMEPAGE_NUM_ARTICLES", 5 );
