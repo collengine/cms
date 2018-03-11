@@ -1,4 +1,4 @@
-<?php include "templates/include/header.php" ?>
+<?php include "header.php" ?>
  
       <h1>Article Archive</h1>
  
@@ -21,4 +21,4 @@
  
       <p><a href="./">Return to Homepage</a></p>
  
-<?php include "templates/include/footer.php" ?>
+<?php include "footer.php" ?>
