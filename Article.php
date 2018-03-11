@@ -119,7 +119,7 @@ class Article
  
   public static function getList( $numRows=1000000, $order="publicationDate DESC" ) {
     $conn = new PDO( DB_DSN, DB_USERNAME, DB_PASSWORD );
-    $com = mysqli_connect("localhost", "peter", "passwd", "cms");
+    $com = mysqli_connect("bookfair-mysqldbserver.mysql.database.azure.com", "peterkoech@bookfair-mysqldbserver", "#Robert15", "mysqldatabase40682");
     $sql = "SELECT SQL_CALC_FOUND_ROWS *, UNIX_TIMESTAMP(publicationDate) AS publicationDate FROM articles
             ORDER BY " . mysqli_escape_string($com, $order) . " LIMIT :numRows";
  
