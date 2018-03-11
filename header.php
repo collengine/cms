@@ -7,5 +7,5 @@
   <body>
     <div id="container">
  
-      <a href="."><img style = "width: 300px; height: 200px;"id="logo" src="images/logo.jpg" alt="Widget News" /></a>
+      <a href="."><img style = "width: 300px; height: 200px;"id="logo" src="logo.jpg" alt="Widget News" /></a>
       
