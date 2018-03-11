@@ -53,13 +53,13 @@ function login() {
  
       // Login failed: display an error message to the user
       $results['errorMessage'] = "Incorrect username or password. Please try again.";
-      require( TEMPLATE_PATH . "/admin/loginForm.php" );
+      require( "loginForm.php" );
     }
  
   } else {
  
     // User has not posted the login form yet: display the form
-    require( TEMPLATE_PATH . "/admin/loginForm.php" );
+    require( "loginForm.php" );
   }
  
 }
@@ -95,7 +95,7 @@ function newArticle() {
  
     // User has not posted the article edit form yet: display the form
     $results['article'] = new Article;
-    require( TEMPLATE_PATH . "/admin/editArticle.php" );
+    require( "editArticle.php" );
   }
  
 }
@@ -128,7 +128,7 @@ function editArticle() {
  
     // User has not posted the article edit form yet: display the form
     $results['article'] = Article::getById( (int)$_GET['articleId'] );
-    require( TEMPLATE_PATH . "/admin/editArticle.php" );
+    require( "editArticle.php" );
   }
  
 }
@@ -162,7 +162,7 @@ function listArticles() {
     if ( $_GET['status'] == "articleDeleted" ) $results['statusMessage'] = "Article deleted.";
   }
  
-  require( TEMPLATE_PATH . "/admin/listArticles.php" );
+  require( "listArticles.php" );
 }
  
 ?>
