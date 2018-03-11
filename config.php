@@ -9,7 +9,7 @@ define( "TEMPLATE_PATH", "templates" );
 define( "HOMEPAGE_NUM_ARTICLES", 5 );
 define( "ADMIN_USERNAME", "peter" );
 define( "ADMIN_PASSWORD", "passwd" );
-require( CLASS_PATH."/Article.php" );
+require( "Article.php" );
  
 // function handleException( $exception ) {
 //   echo "Sorry, a problem occurred. Please try later.";
