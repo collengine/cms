@@ -4,7 +4,8 @@
  
 <?php foreach ( $results['articles'] as $article ) { ?>
  <?php $pre = 'uploads/';
-  $finalPath = $pre.$article->image ?>
+  $finalPath = "thedore.jpg" ?>
+<!--        $pre.$article->image -->
 
         <li>
           <h2>
